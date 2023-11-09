@@ -1,0 +1,117 @@
+/* Estilos para la barra de navegación */
+.nav {
+  display: flex;
+  background-color: #f9f9f9;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #e1e1e1;
+  transition: background-color 0.3s ease;
+}
+
+.logo {
+  color: #ff6f00;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.links {
+  display: flex;
+  font-size: 17px;
+  justify-content: space-around;
+  padding-left: 70rem;
+  margin-left: 10rem;
+  transition: padding 0.3s ease, margin 0.3s ease;
+}
+
+.link {
+  color: #771010d3;
+  text-decoration: none;
+  margin: 1rem;
+  padding: -2rem;
+  transition: color 0.3s ease;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  transition: all 0.3s ease;
+}
+
+.logoss {
+  width: 180px;
+  height: 65px;
+  margin-right: -70px;
+  transition: all 0.3s ease;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings {
+  width: 135px;
+  height: 45px;
+  margin-left: 100px;
+  transition: all 0.3s ease;
+}
+
+.settingsContenedor {
+  display: flex;
+  align-items: center;
+  margin-left: -100px;
+}
+
+.settingss {
+  width: 135px;
+  height: 45px;
+  margin-left: -100px;
+}
+
+.logoFoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  margin-left: -40px;
+  transition: all 0.3s ease;
+}
+
+.nav {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+/* Resto de tu código CSS... */
+
+.login-btn {
+  margin-right: auto;
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #e2e2e2;
+  color: #111;
+}
+
